@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/databind/databind"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "images/1.png",
+      "selectedIconPath": "images/3.png",
+      "text": "组件"
+    }, {
+      "pagePath": "pages/databind/databind",
+      "iconPath": "images/2.png",
+      "selectedIconPath": "images/4.png",
+      "text": "接口"
+    }]
+  },
+  "networkTimeOut": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
